@@ -1,0 +1,10 @@
+Patient Name: Angelo Verlain
+Age: 24
+Blood Group: A+
+Diagnosis: Migraine and Seasonal Allergies
+Prescribed Medication:
+ - Cetirizine 10mg once daily
+ - Ibuprofen 400mg as needed
+Next Appointment: 2025-07-20
+Notes: Avoid exposure to allergens. Maintain hydration and regular sleep patterns.
+e
