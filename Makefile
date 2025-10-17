@@ -24,7 +24,8 @@ clean:
 	      3_device_communication \
 	      4_emergency_route \
 	      5_huffman_compression \
-	      5_compressed.txt \
-	      5_decompressed.txt
+	      compressed.txt \
+	      decompressed.txt \
+	      session_state.txt
 
 .PHONY: all clean 1_iot_gateway 2_access_control 3_device_communication 4_emergency_route 5_huffman_compression
