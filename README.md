@@ -16,24 +16,22 @@ Data structures and algorithms implementation covering doubly linked lists, bina
 # Build all
 make
 
-# Build individual programs
-make iot_gateway
-make access_control
-make device_communication
-make emergency_route
-make huffman_compression
+# Build individual programs  
+make 1_iot_gateway
+make 2_access_control
+make 3_device_communication
+make 4_emergency_route
+make 5_huffman_compression
 
 # Clean
 make clean
-```
 
-Run programs from their respective directories:
-```bash
-cd 1_iot_gateway_logs && ./iot_gateway
-cd 2_access_control_bst && ./access_control
-cd 3_device_communication_graph && ./device_communication
-cd 4_emergency_route_dijkstra && ./emergency_route
-cd 5_huffman_compression && ./huffman_compression
+# Run programs
+./1_iot_gateway
+./2_access_control
+./3_device_communication
+./4_emergency_route
+./5_huffman_compression
 ```
 
 ## Features
@@ -79,11 +77,11 @@ cd 5_huffman_compression && ./huffman_compression
 
 ## Files Generated
 
-- `session_state.txt` - IoT gateway session persistence
-- `access_log.txt` - Access control security log
-- `compressed.huff` - Huffman compressed output
-- `tree.bin` - Huffman encoding tree
-- `decompressed.txt` - Decompressed file verification
+- `1_session_state.txt` - IoT gateway session persistence
+- `2_access_log.txt` - Access control security log  
+- `5_compressed.huff` - Huffman compressed output
+- `5_tree.bin` - Huffman encoding tree
+- `5_decompressed.txt` - Decompressed file verification
 
 ## Requirements
 
